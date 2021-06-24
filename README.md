@@ -1,1 +1,3 @@
-# 3b1bAI
+# NUMBER AI
+
+Outside of class, I developed a multilayer perceptron neural network that was trained to classify handwritten digits. The network has 4 layers, with the each layer having 784, 400, 400, and 10 perceptrons respectively. I used the MNIST Database of 60000 handwritten examples as training data, and used stochastic gradient descent, a Leaky ReLU activation function, and a learning rate schedule to train the network. When given a validation dataset of 10000 images the network achieves an accuracy of 97.36%. I hooked up the network to a small Tkinter paint app that I developed which takes a given image, gives it to the network to classify, and displays the network's output to the user. Overall this took me about 80 hours to complete, and it was really cool to see the final product in action. 
